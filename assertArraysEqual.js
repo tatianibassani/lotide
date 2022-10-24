@@ -1,5 +1,5 @@
 const eqArrays = function (arr1, arr2) {
-  // return arr1.toString() === arr2.toString();
+  
    if (arr1.toString() === arr2.toString()) {
      return true;
    }
@@ -12,7 +12,6 @@ const assertArraysEqual = function(arr1, arr2) {
   } else {
     console.log(`🛑🛑🛑 Assertion Failed: ${arr1}  !== ${arr2}`);
   }
-}
+};
+module.exports = assertArraysEqual;
 
-assertArraysEqual(eqArrays([1,2,3], [4,5,6]), false);
-assertArraysEqual(eqArrays([1,2,3], [1,2,3]), true);
