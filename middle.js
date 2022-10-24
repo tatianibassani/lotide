@@ -47,6 +47,7 @@ const middle = function(arr) {
   return result;
 }
 
-assertArraysEqual(middle([7, 3, 4, 6, 2, 1]), [4, 6]);
-assertArraysEqual(middle([7, 3, 4, 6, 2]), [4]);
+//assertArraysEqual(middle([7, 3, 4, 6, 2, 1]), [4, 6]);
+//assertArraysEqual(middle([7, 3, 4, 6, 2]), [4]);
 
+module.exports = middle;
