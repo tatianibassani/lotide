@@ -40,3 +40,5 @@ assertArraysEqual(values, [6, 7, 2, 5, 3]);
 
 /*const results1 = map(words, word => word[0]);
 console.log(results1);*/
+
+module.exports = map;

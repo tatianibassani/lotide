@@ -18,4 +18,5 @@ const countLetters = function(word){
   return result;
 }
 
-console.log(countLetters("LHL"));
+module.exports = countLetters;
+//console.log(countLetters("LHL"));
