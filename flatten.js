@@ -41,3 +41,12 @@ const flatten = function(values) {
 }
 
 assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6]);
+
+/*
+-----------other way-------
+if (Array.isArray(values[i])) {
+  flattened = flattened.concat(values[i]);
+} else {
+  flattened.push(values[i]);
+}
+*/
