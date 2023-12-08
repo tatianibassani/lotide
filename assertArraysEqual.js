@@ -20,6 +20,8 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
+module.exports = assertEqual;
+
 /*
 --------better way to do it------
 for (let i = 0; i < arr1.length; i++) {
