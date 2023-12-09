@@ -6,10 +6,10 @@ const tail   = require('../tail');
 
 describe("#tail", () => {
     it("returns [6, 7] for [5,6,7]", () => {
-      assert.strictEqual(tail([5,6,7]).toString(), [6, 7].toString());
+      assert.deepEqual(tail([5,6,7]), [6, 7]);
     });
   
     it("returns [2, 5, 8, 0, 8] for [1,2,5,8,0,8]", () => {
-      assert.strictEqual(tail([1,2,5,8,0,8]).toString(), [2, 5, 8, 0, 8].toString()); 
+      assert.deepEqual(tail([1,2,5,8,0,8]), [2, 5, 8, 0, 8]); 
     });
   });
